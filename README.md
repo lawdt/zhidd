@@ -11,6 +11,7 @@ to use this Template you must do this steps:
 2. Correcly configure ipmi interface on nodes in zabbix web interface (also see zabbix documentation)
 3. install ipmitool on zabbix server
 4. install python on zabbix server
+5. install python modules: argparse,sys,subprocess,re,json (see python documentation)
 5. copy script to externalscripts directory on zabbix server (see ExternalScripts parameter in zabbix_server.conf)
 6. Import Template to zabbix
 7. Add templates to nodes

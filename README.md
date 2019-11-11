@@ -1,7 +1,7 @@
 # zhidd (zabbix hp ipmi disks discovery )
 # by Dmitry Lavrukhin
 # date 11.11.2019
-This is simple Template to discover Hard Disk Drives on HP servers by ipmi interface trough iLO
+This is simple Template to discover Hard Disk Drives on HP servers in Zabbix monitoring system by ipmi interface trough iLO
 This is useful if you have many HP servers with different count of disk drives. In this case you can use my HP servers IPMI templates with excluded HDD sensors. Just Attach Two templates: One for Server Hardware, and one for Disk drives.
 My HP IPMI Templates with no-HDD option located here: 
 https://share.zabbix.com/owner/lawdt
